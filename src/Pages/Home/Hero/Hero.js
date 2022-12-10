@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
@@ -18,7 +17,7 @@ const Hero = () => {
                             <a href='https://www.linkedin.com/in/soriful-islam-adnan/' target="_blank"><FaLinkedin className='text-2xl'></FaLinkedin></a>
                             <a href='https://twitter.com/adnankhan7792' target="_blank"><FaTwitter className='text-2xl'></FaTwitter></a>
                         </div>
-                    <Link to='/contact' className="btn btn-primary">Let's Talk</Link>
+                        <a href="https://form.jotform.com/223431326725451" target="_blank">Let's Talk</a>
                 </div>
             </div>
         </div>

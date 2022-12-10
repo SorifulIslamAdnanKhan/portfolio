@@ -5,10 +5,10 @@ import logo from '../../../assets/images/logo.png';
 const Header = () => {
     const navMenuItems = <React.Fragment>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/'>About</Link></li>
+        {/* <li><Link to='/'>About</Link></li>
         <li><Link to='/'>Projects</Link></li>
-        <li><Link to='/'>Blog</Link></li>
-        <li><Link to='/contact'>Contact</Link></li>
+        <li><Link to='/'>Blog</Link></li> */}
+        <li><a href="https://form.jotform.com/223431326725451" target="_blank">Contact</a></li>
     </React.Fragment>
     return (
         <div className="navbar bg-base-100 p-6">
