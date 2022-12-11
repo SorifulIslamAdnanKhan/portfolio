@@ -2,6 +2,7 @@ import React from 'react';
 import postOne from '../../../assets/images/posts/post-one.png';
 import postTwo from '../../../assets/images/posts/post-two.jpg';
 import postThree from '../../../assets/images/posts/post-three.png';
+import { Link } from 'react-router-dom';
 
 const Posts = () => {
     return (
@@ -37,6 +38,9 @@ const Posts = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className='text-center p-4 mb-5'>
+                <Link to='/blog' className='btn btn-primary'>Explore Blog</Link>
             </div>
         </section>
     );

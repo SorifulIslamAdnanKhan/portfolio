@@ -5,9 +5,8 @@ import logo from '../../../assets/images/logo.png';
 const Header = () => {
     const navMenuItems = <React.Fragment>
         <li><Link to='/'>Home</Link></li>
-        {/* <li><Link to='/'>About</Link></li>
-        <li><Link to='/'>Projects</Link></li>
-        <li><Link to='/'>Blog</Link></li> */}
+        <li><Link to='/about'>About</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
         <li><a href="https://form.jotform.com/223431326725451" target="_blank">Contact</a></li>
     </React.Fragment>
     return (
@@ -31,7 +30,7 @@ const Header = () => {
                         {navMenuItems}
                     </ul>
                 </div>
-                <a href='https://drive.google.com/file/d/12eZRek9WNqFwxQ8Mypy8Yzk-tPTBbQlj/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="btn btn-primary">Download Resume</a>
+                <a href='https://drive.google.com/file/d/12eZRek9WNqFwxQ8Mypy8Yzk-tPTBbQlj/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="btn btn-primary">Resume</a>
             </div>
         </div>
     );

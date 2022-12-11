@@ -10,9 +10,6 @@ const Footer = () => {
         <footer className="footer footer-center bg-stone-100 p-10">
             <div>
                 <img src={logo} className='w-20' alt="" />
-                <p className="font-bold">
-                    K. M. Soriful Islam Adnan. <br />
-                </p>
                 <p>Copyright © 2022 - All right reserved</p>
             </div>
             <div>
