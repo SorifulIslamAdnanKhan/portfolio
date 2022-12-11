@@ -28,7 +28,7 @@ const About = () => {
                         <a href='https://twitter.com/adnankhan7792' target="_blank"><FaTwitter className='text-2xl'></FaTwitter></a>
                     </div>
                     <div>
-                        <a href='https://drive.google.com/file/d/12eZRek9WNqFwxQ8Mypy8Yzk-tPTBbQlj/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="btn btn-primary">Download Resume</a>
+                        <a href='https://drive.google.com/file/d/1S3hWrxBHHFP5DBbLQb94BJ4ldGRZBBtk/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="btn btn-primary">Download Resume</a>
                     </div>
                 </div>
                 <div className='p-3'>

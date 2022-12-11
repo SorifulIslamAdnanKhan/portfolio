@@ -30,7 +30,7 @@ const Header = () => {
                         {navMenuItems}
                     </ul>
                 </div>
-                <a href='https://drive.google.com/file/d/12eZRek9WNqFwxQ8Mypy8Yzk-tPTBbQlj/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="btn btn-primary">Resume</a>
+                <a href='https://drive.google.com/file/d/1S3hWrxBHHFP5DBbLQb94BJ4ldGRZBBtk/view?usp=sharing' target="_blank" rel="noopener noreferrer" className="btn btn-primary">Resume</a>
             </div>
         </div>
     );
