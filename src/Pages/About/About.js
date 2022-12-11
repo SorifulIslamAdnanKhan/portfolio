@@ -48,7 +48,6 @@ const About = () => {
                     <button className="btn btn-outline mx-1 mb-1 btn-secondary">JSX</button>
                     <button className="btn btn-outline mx-1 mb-1 btn-primary">HTML5</button>
                     <button className="btn btn-outline mx-1 mb-1">CSS3</button>
-
                 </div>
             </div>
         </div>
